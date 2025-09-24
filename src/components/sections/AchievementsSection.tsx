@@ -4,45 +4,17 @@ import { Trophy, Award, Star, Zap, Target, Code } from "lucide-react";
 const AchievementsSection = () => {
   const achievements = [
     {
-      icon: <Trophy className="w-8 h-8" />,
-      title: "Hackathon Winner",
-      description: "1st Place at National Student Hackathon 2024",
-      date: "March 2024",
-      color: "from-yellow-500 to-orange-500",
-    },
-    {
-      icon: <Award className="w-8 h-8" />,
-      title: "Dean's List Scholar",
-      description: "Maintained 9.2+ GPA for 4 consecutive semesters",
-      date: "2022-2024",
-      color: "from-blue-500 to-cyan-500",
-    },
-    {
-      icon: <Star className="w-8 h-8" />,
-      title: "Open Source Contributor",
-      description: "500+ contributions across various GitHub repositories",
-      date: "Ongoing",
-      color: "from-green-500 to-emerald-500",
-    },
-    {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Technical Lead",
-      description: "Led development team in college tech fest project",
-      date: "February 2024",
-      color: "from-purple-500 to-indigo-500",
-    },
-    {
       icon: <Target className="w-8 h-8" />,
-      title: "Coding Competition",
-      description: "Top 10 in Inter-College Programming Contest",
-      date: "January 2024",
+      title: "DSA Problmes solved",
+      description: "Solved 1000+ problems on various platforms.",
+      // date: "January 2024",
       color: "from-red-500 to-pink-500",
     },
     {
       icon: <Code className="w-8 h-8" />,
-      title: "Certification",
-      description: "AWS Certified Developer Associate",
-      date: "December 2023",
+      title: "Certificate",
+      description: "Java Full Stack Development",
+      date: "December 2024",
       color: "from-teal-500 to-cyan-500",
     },
   ];
@@ -140,7 +112,7 @@ const AchievementsSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           viewport={{ once: true }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 p-8 card-gradient rounded-2xl shadow-card"
+          className="grid grid-cols-3 md:grid-cols-3 gap-6 mt-16 p-8 card-gradient rounded-2xl shadow-card"
         >
           <div className="text-center">
             <motion.div
@@ -162,7 +134,7 @@ const AchievementsSection = () => {
               viewport={{ once: true }}
               className="text-3xl font-bold text-primary mb-2"
             >
-              500+
+              50+
             </motion.div>
             <p className="text-muted-foreground">GitHub Commits</p>
           </div>
@@ -174,21 +146,9 @@ const AchievementsSection = () => {
               viewport={{ once: true }}
               className="text-3xl font-bold text-primary mb-2"
             >
-              95%
+              90%
             </motion.div>
             <p className="text-muted-foreground">Academic Score</p>
-          </div>
-          <div className="text-center">
-            <motion.div
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              transition={{ duration: 0.6, delay: 1.4 }}
-              viewport={{ once: true }}
-              className="text-3xl font-bold text-primary mb-2"
-            >
-              3+
-            </motion.div>
-            <p className="text-muted-foreground">Years Experience</p>
           </div>
         </motion.div>
       </div>

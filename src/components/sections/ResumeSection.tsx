@@ -13,23 +13,24 @@ const ResumeSection = () => {
     document.body.removeChild(link);
   };
 
+
   const contactInfo = [
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "veerendra.dev@example.com",
+      value: "veeeras462005@example.com",
       link: "mailto:veerendra.dev@example.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+91 98765 43210",
-      link: "tel:+919876543210",
+      value: "+91 9618874452",
+      link: "tel:+919618874452",
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Tirupathi, Andhra Pradesh, India",
       link: null,
     },
   ];
@@ -51,7 +52,6 @@ const ResumeSection = () => {
             Get a detailed overview of my education, experience, skills, and achievements in a comprehensive document
           </p>
         </motion.div>
-
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -182,7 +182,7 @@ const ResumeSection = () => {
                     <div className="text-sm text-muted-foreground">Computer Science</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary">9.2</div>
+                    <div className="text-2xl font-bold text-primary">9.0</div>
                     <div className="text-sm text-muted-foreground">CGPA</div>
                   </div>
                 </motion.div>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImage from "@/assets/profile-picture.jpg";
+import profileImage from "@/assets/veeras.jpg";
 
 const AboutSection = () => {
   return (
@@ -21,11 +21,11 @@ const AboutSection = () => {
             className="flex justify-center lg:justify-start"
           >
             <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20">
+              <div className="w-85 h-85 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20">
                 <img
                   src={profileImage}
                   alt="Veerendra Profile"
-                  className="w-full h-full object-cover"
+                  className="w-80 h-75 object-cover"
                 />
               </div>
               {/* Floating elements */}
@@ -82,24 +82,11 @@ const AboutSection = () => {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-muted-foreground"
             >
-              I'm a passionate computer science student with a strong foundation in 
-              web development and software engineering. I love creating innovative 
-              solutions and building applications that make a positive impact. 
-              Currently pursuing my degree while working on various projects that 
-              combine creativity with technical excellence.
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 1.2 }}
-              viewport={{ once: true }}
-              className="text-lg leading-relaxed text-muted-foreground"
-            >
-              When I'm not coding, you can find me exploring new technologies, 
-              participating in hackathons, or contributing to open-source projects. 
-              I believe in continuous learning and always strive to push the 
-              boundaries of what's possible with code.
+              I'm Veerendra Achari, a final-year Computer Science student with a strong focus on Java backend development
+              and full-stack web applications. I enjoy solving challenging problems and building projects that showcase my
+              technical skills, including REST APIs, database integration, and modern web interfaces using React.js and Spring Boot.
+              Outside of coding, I like participating in coding contests, enhancing my problem-solving abilities, and exploring new technologies.
+              I am passionate about continuous learning and aim to create impactful software solutions that combine functionality with clean, efficient design.
             </motion.p>
 
             <motion.div
@@ -109,15 +96,6 @@ const AboutSection = () => {
               viewport={{ once: true }}
               className="flex flex-wrap gap-4 pt-4"
             >
-              <div className="px-4 py-2 bg-primary/10 rounded-full text-primary font-medium">
-                Full-Stack Developer
-              </div>
-              <div className="px-4 py-2 bg-accent/10 rounded-full text-accent font-medium">
-                Problem Solver
-              </div>
-              <div className="px-4 py-2 bg-secondary/80 rounded-full text-secondary-foreground font-medium">
-                Team Player
-              </div>
             </motion.div>
           </motion.div>
         </motion.div>

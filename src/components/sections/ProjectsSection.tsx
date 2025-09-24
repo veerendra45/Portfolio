@@ -1,39 +1,39 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import project1Image from "@/assets/project1.jpg";
-import project2Image from "@/assets/project2.jpg";
-import project3Image from "@/assets/project3.jpg";
+import project1Image from "@/assets/LeaderBoardImg.png";
+import project2Image from "@/assets/QoutesImg.png";
+import project3Image from "@/assets/ecommerImg.png";
 
 const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Analytics Dashboard",
-      description: "A comprehensive web application for data visualization and analytics with real-time charts and interactive dashboards. Built with React, TypeScript, and Chart.js.",
+      title: "DSA LeaderBoard",
+      description: "A web application to track and display coding performance on platforms like LeetCode and GeeksforGeeks. Features a dynamic leaderboard, problem-solving stats, and user rankings. Built with React.js, Java, and MySQL, focusing on real-time updates and an interactive, user-friendly interface.",
       image: project1Image,
-      technologies: ["React", "TypeScript", "Chart.js", "Node.js", "MongoDB"],
-      githubUrl: "https://github.com/veerendra/analytics-dashboard",
+      technologies: ["React", "SpringBoot", "MySQL", "Security"],
+      githubUrl: "https://github.com/veerendra45/DSA-LeaderBoard",
       featured: true,
     },
     {
       id: 2,
-      title: "E-Commerce Mobile App",
-      description: "A modern mobile shopping application with seamless user experience, payment integration, and inventory management. Designed for both iOS and Android platforms.",
+      title: "Quotes Explorer",
+      description: "A web application that allows users to browse, search, and explore a wide collection of quotes. Built with React.js and integrated with a quotes API for dynamic content delivery.",
       image: project2Image,
-      technologies: ["React Native", "Redux", "Firebase", "Stripe API", "TypeScript"],
-      githubUrl: "https://github.com/veerendra/ecommerce-app",
+      technologies: ["React", "SpringBoot", "API"],
+      githubUrl: "https://github.com/veerendra45/QuotesExplorer",
       featured: true,
     },
     {
       id: 3,
-      title: "Task Management System",
-      description: "A collaborative project management tool with Kanban boards, real-time updates, team collaboration features, and deadline tracking for enhanced productivity.",
+      title: "E-commerce site",
+      description: "A React.js web application that simulates a food ordering platform using the live Swiggy API. Features dynamic restaurant listings, menu exploration, and interactive user interface with real-time data fetched directly from the API. Built entirely in React.js, focusing on responsive design and seamless API integration.",
       image: project3Image,
-      technologies: ["Next.js", "PostgreSQL", "Prisma", "Socket.io", "Tailwind CSS"],
-      githubUrl: "https://github.com/veerendra/task-manager",
-      featured: false,
-    },
+      technologies: ["React", "Live Swiggy API"],
+      githubUrl: "https://github.com/veerendra45/Namasta-React",
+      featured: true,
+    }
   ];
 
   const containerVariants = {
@@ -174,7 +174,7 @@ const ProjectsSection = () => {
           <Button
             variant="outline"
             size="lg"
-            onClick={() => window.open('https://github.com/veerendra', '_blank')}
+            onClick={() => window.open('https://github.com/veerendra45', '_blank')}
             className="group"
           >
             <ExternalLink className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" />

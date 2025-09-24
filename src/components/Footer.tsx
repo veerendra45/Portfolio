@@ -6,19 +6,19 @@ const Footer = () => {
     {
       name: "GitHub",
       icon: <Github className="w-5 h-5" />,
-      url: "https://github.com/veerendra",
+      url: "https://github.com/veerendra45",
       color: "hover:text-gray-400",
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-5 h-5" />,
-      url: "https://linkedin.com/in/veerendra-dev",
+      url: "https://www.linkedin.com/in/veerendra-vadla/",
       color: "hover:text-blue-400",
     },
     {
       name: "Email",
       icon: <Mail className="w-5 h-5" />,
-      url: "mailto:veerendra.dev@example.com",
+      url: "mailto:veeras462005@gmail.com@example.com",
       color: "hover:text-red-400",
     },
   ];
@@ -113,33 +113,6 @@ const Footer = () => {
               viewport={{ once: true }}
               className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
             >
-              {/* Copyright */}
-              <div className="flex items-center space-x-2 text-muted-foreground">
-                <span>© 2024 Veerendra. Made with</span>
-                <motion.div
-                  animate={{ scale: [1, 1.2, 1] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
-                >
-                  <Heart className="w-4 h-4 text-red-500 fill-current" />
-                </motion.div>
-                <span>and lots of ☕</span>
-              </div>
-
-              {/* Tech Stack */}
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <span>Built with</span>
-                <div className="flex space-x-2">
-                  <span className="px-2 py-1 bg-primary/10 text-primary rounded text-xs font-medium">
-                    React
-                  </span>
-                  <span className="px-2 py-1 bg-accent/10 text-accent rounded text-xs font-medium">
-                    TypeScript
-                  </span>
-                  <span className="px-2 py-1 bg-secondary/80 text-secondary-foreground rounded text-xs font-medium">
-                    Tailwind
-                  </span>
-                </div>
-              </div>
             </motion.div>
           </div>
 

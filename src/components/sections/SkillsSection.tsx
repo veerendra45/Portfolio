@@ -15,51 +15,28 @@ const SkillsSection = () => {
     {
       category: "Frontend Development",
       icon: <Globe className="w-8 h-8" />,
-      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+      technologies: ["React","Tailwind CSS", "HTML5", "CSS3"],
       color: "from-blue-500 to-cyan-500",
     },
     {
       category: "Backend Development",
       icon: <Server className="w-8 h-8" />,
-      technologies: ["Node.js", "Express", "Python", "Java", "REST APIs", "GraphQL"],
+      technologies: ["SpringBoot", "Hibernate", "REST APIs", "GraphQL"],
       color: "from-green-500 to-emerald-500",
     },
     {
       category: "Database & Storage",
       icon: <Database className="w-8 h-8" />,
-      technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis", "Supabase"],
+      technologies: ["PostgreSQL", "MySQL"],
       color: "from-purple-500 to-indigo-500",
-    },
-    {
-      category: "Mobile Development",
-      icon: <Smartphone className="w-8 h-8" />,
-      technologies: ["React Native", "Flutter", "Android", "iOS", "PWA", "Expo"],
-      color: "from-pink-500 to-rose-500",
     },
     {
       category: "Programming Languages",
       icon: <Code className="w-8 h-8" />,
-      technologies: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"],
+      technologies: ["JavaScript", "Python", "Java"],
       color: "from-orange-500 to-amber-500",
-    },
-    {
-      category: "DevOps & Tools",
-      icon: <GitBranch className="w-8 h-8" />,
-      technologies: ["Git", "Docker", "AWS", "Vercel", "CI/CD", "Linux"],
-      color: "from-teal-500 to-cyan-500",
-    },
-    {
-      category: "Design & UI/UX",
-      icon: <Palette className="w-8 h-8" />,
-      technologies: ["Figma", "Adobe XD", "Photoshop", "Canva", "Wireframing", "Prototyping"],
-      color: "from-violet-500 to-purple-500",
-    },
-    {
-      category: "Other Skills",
-      icon: <Zap className="w-8 h-8" />,
-      technologies: ["Problem Solving", "Team Leadership", "Agile", "Testing", "Performance", "Security"],
-      color: "from-red-500 to-pink-500",
-    },
+    }
+    
   ];
 
   const containerVariants = {
