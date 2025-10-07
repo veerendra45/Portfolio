@@ -18,7 +18,7 @@ const ResumeSection = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "veeeras462005@example.com",
+      value: "veeeras462005@gmail.com",
       link: "mailto:veerendra.dev@example.com",
     },
     {
