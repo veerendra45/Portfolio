@@ -6,8 +6,8 @@ const ResumeSection = () => {
   const handleDownloadResume = () => {
     // Create a temporary link to trigger download
     const link = document.createElement('a');
-    link.href = '/Veerendra-Resume.pdf';
-    link.download = 'Veerendra-Resume.pdf';
+    link.href = '/ResumeVeerendra.pdf';
+    link.download = 'ResumeVeerendra.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
